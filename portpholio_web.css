@@ -1,0 +1,85 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(102, 91, 93);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color:black;
+}
+
+nav {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:blue;
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+    color: darkslategray;
+}
+
+/* Skills section */
+.skills-list {
+    padding: 0;
+}
+
+.skills-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skills-list img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Accomplishments section */
+.accomplishments-list {
+    padding: 0;
+}
+
+.accomplishments-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.accomplishments-list .date {
+    font-style: italic;
+    color:skyblue;
+}
+
+/* ... Style other sections (projects, contact) as needed */
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+}
